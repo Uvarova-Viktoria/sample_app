@@ -33,6 +33,8 @@ gem 'coffee-rails',         '5.0.0'
 gem 'jquery-rails',         '4.4.0'
 gem 'sdoc',                 '2.2.0', group: :doc
 gem "win32console", '1.3.2'
+gem 'bootstrap-sass',       '3.4.0'
+gem 'rails-controller-testing'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
