@@ -11,7 +11,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     #get :home #book
     get root_url
     assert_response :success
-    assert_select "title", "Home | #{@base_title}"
+    assert_select "title", "#{@base_title}"
   end
 
   #worked 2 runs, 4 assertions, 0 failures, 0 errors, 0 skips
