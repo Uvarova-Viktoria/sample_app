@@ -35,6 +35,8 @@ gem 'sdoc',                 '2.2.0', group: :doc
 gem "win32console", '1.3.2'
 gem 'bootstrap-sass',       '3.4.0'
 gem 'rails-controller-testing'
+gem 'bcrypt',               '3.1.16'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
